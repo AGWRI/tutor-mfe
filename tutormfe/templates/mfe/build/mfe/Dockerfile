@@ -6,6 +6,8 @@ RUN apt update \
     gcc git libgl1 libxi6 make \
     # additionally required for gifsicle, mozjpeg, and optipng (on arm)
     autoconf libtool pkg-config zlib1g-dev \
+    # additionally required for imagemin-pngquant (on arm)
+    pngquant \
     # additionally required for node-sass (on arm)
     python g++
 
